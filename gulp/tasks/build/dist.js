@@ -9,8 +9,6 @@ var config = require(global.GULP_DIR + '/gulp.config');
 module.exports = {
   dep: [
     'build:clean',
-    'templatecache',
-    'annotate',
     'build:minify:css',
     'build:minify:html',
     'build:minify:js',

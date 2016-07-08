@@ -7,7 +7,7 @@ var config = require(global.GULP_DIR + '/gulp.config');
  * Builds the project for karma environment.
  */
 module.exports = {
-  dep: ['templatecache', 'annotate'],
+  dep: [],
   fn: function (gulp, done) {
     utils.log('*** Building dev environment ***');
 

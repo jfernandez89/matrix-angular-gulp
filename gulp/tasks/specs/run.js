@@ -11,7 +11,7 @@ var config = require(global.GULP_DIR + '/gulp.config');
  * Runs all unit tests producing a single result along with coverage information.
  */
 module.exports = {
-  dep: ['templatecache'],
+  dep: [],
   fn: function (gulp, done) {
     utils.log('*** Running tests ***');
 

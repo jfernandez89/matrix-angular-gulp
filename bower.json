@@ -1,6 +1,6 @@
 {
-  "name": "angular-matrix-gulp",
-  "description": "Basic gulpfile to Angular projects in Emergya",
+  "name": "matrix-themers-gulp",
+  "description": "Basic gulpfile to themers projects in Emergya",
   "main": "gulpfile.js",
   "authors": [
     "igonzalez@emergya.com",
@@ -12,7 +12,7 @@
     "Emergya",
     "Angular"
   ],
-  "homepage": "https://github.com/natete/angular-matrix-gulp",
+  "homepage": "https://github.com/jfernandez89/matrix-themers-gulp",
   "moduleType": [
     "es6"
   ],

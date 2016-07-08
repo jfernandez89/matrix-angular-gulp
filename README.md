@@ -36,9 +36,6 @@ There are many configurable options in the *gulp.config.js* so you can adapt the
   - **default**
     - *Description*: Prints out the list  of available tasks.
 
-  - **annotate**
-    - *Description*: Adds $inject arrays to angular functions.
-
   - **inject**
     - *Description*: Inject required files depending on the current environment.
 
@@ -156,7 +153,7 @@ There are many configurable options in the *gulp.config.js* so you can adapt the
 
   - **serve:browse**
     - *Description*: Opens a browser with the specified environment.
-    - **Limitations**: Cannot be called on its own, it's essentially a subtask to be called from another task (serve:dev, serve:dist or specs:serve).  
+    - **Limitations**: Cannot be called on its own, it's essentially a subtask to be called from another task (serve:dev, serve:dist or specs:serve).
 
 
   - **serve:dev**
@@ -200,7 +197,7 @@ There are many configurable options in the *gulp.config.js* so you can adapt the
       - *autofix*: Add --autofix if you want jscs to fix your files based on the provided rules.
       - *strict*: Add --strict to prevent tasks that depend on this one to be executed if errors are found.
     - *Requirements*:
-      - [templatecache, serve:reload]
+      - [serve:reload]
 
 
   - **serve:reload:dev:styles**
@@ -211,7 +208,7 @@ There are many configurable options in the *gulp.config.js* so you can adapt the
       - *autofix*: Add --autofix if you want jscs to fix your files based on the provided rules.
       - *strict*: Add --strict to prevent tasks that depend on this one to be executed if errors are found.
     - *Requirements*:
-      - [templatecache, styles, serve:reload]
+      - [styles, serve:reload]
 
 
   - **serve:reload:specs:html**
@@ -226,7 +223,7 @@ There are many configurable options in the *gulp.config.js* so you can adapt the
       - *autofix*: Add --autofix if you want jscs to fix your files based on the provided rules.
       - *strict*: Add --strict to prevent tasks that depend on this one to be executed if errors are found.
     - *Requirements*:
-      - [templatecache, serve:reload]
+      - [serve:reload]
 
 
   - **serve:reload:specs:styles**
@@ -238,7 +235,7 @@ There are many configurable options in the *gulp.config.js* so you can adapt the
   - **specs:run**
     - *Description*: Runs all unit tests producing a single result along with coverage information.
     - *Requirements*:
-      - [templatecache]
+      - []
 
 
   - **specs:serve**
@@ -267,7 +264,7 @@ There are many configurable options in the *gulp.config.js* so you can adapt the
       - [styles:clean]
 
 
-  - **styles:less**
+  - **styles:sass**
       - *Description*: Compiles all the sass partials, shows the errors on the console log & concatenates all the files in only one.
       - *Requirements*:
         - [styles:clean]

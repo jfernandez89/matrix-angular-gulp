@@ -115,9 +115,9 @@ function getConfig() {
   config.specs = {
     coverage: {
       dir: './',
-      reporters: [ // possible values: html, lcov, lcovonly, text, text-summary, cobertura, teamcity, json, in-memory
+      reporters: [// possible values: html, lcov, lcovonly, text, text-summary, cobertura, teamcity, json, in-memory
         {type: 'text-summary'},
-        {type: 'html', subdir: 'coverage/',},
+        {type: 'html', subdir: 'coverage/', },
         {type: 'cobertura', subdir: 'target/', file: 'coverage-report.xml'}
       ]
     },
@@ -131,16 +131,6 @@ function getConfig() {
     autoprefixerOptions: {browsers: ['last 2 version', '> 5%']}
   };
 
-  config.templateCache = {
-    dest: scriptsFolder + 'app/templates/',
-    fileName: 'templates.js',
-    options: {
-      module: 'app.core.templates',
-      moduleSystem: 'IIFE',
-      root: 'scripts/',
-      standalone: true
-    }
-  };
-
   return config;
-};
+}
+;
