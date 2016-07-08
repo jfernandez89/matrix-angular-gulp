@@ -2,7 +2,7 @@
 <img src="https://github.com/natete/angular-matrix-gulp/blob/master/assets/img/logo-repo-mini.png" align="right" />
 </a>
 
-# Angular / Gulp Patterns
+# Themers / Gulp Patterns
 
 ![repo-logo](https://github.com/natete/angular-matrix-gulp/blob/master/assets/img/logo-repo.png)
 
