@@ -4,7 +4,7 @@
 
 # Themers / Gulp Patterns
 
-![repo-logo](https://github.com/natete/angular-matrix-gulp/blob/master/assets/img/logo-repo.png)
+![repo-logo](https://github.com/jfernandez89/matrix-themers-gulp/blob/master/assets/img/logo-repo.png)
 
 ## Synopsis
 
